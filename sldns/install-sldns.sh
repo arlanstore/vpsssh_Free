@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script  By SL
-# MOD by OWL64 2023
+# MOD by arlanstore 2023
 # ===============================================
 cd
 nameserver=$(cat /root/nsdomain)
@@ -25,7 +25,7 @@ service cron reload
 service cron restart
 #sl-fix
 cd /usr/bin
-wget -O sl-fix "https://raw.githubusercontent.com/owl64/vpsssh_Free/main/sslh-fix/sslh-fix"
+wget -O sl-fix "https://raw.githubusercontent.com/arlanstore/vpsssh_Free/main/sslh-fix/sslh-fix"
 chmod +x sl-fix
 sl-fix
 cd
