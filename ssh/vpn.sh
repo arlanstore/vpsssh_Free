@@ -25,7 +25,7 @@ clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/owl64/vpsssh_Free/main/ssh"
+akbarvpn="raw.githubusercontent.com/arlanstore/vpsssh_Free/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
