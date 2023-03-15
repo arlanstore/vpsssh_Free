@@ -49,7 +49,7 @@ cd
 #install client-sldns.service
 cat > /etc/systemd/system/client-sldns.service << END
 [Unit]
-Description=Server SlowDNS MOD by owl64
+Description=Server SlowDNS MOD by arlanstore
 Documentation=https://www.sdc.my.id
 After=network.target nss-lookup.target
 
